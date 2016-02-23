@@ -1,0 +1,25 @@
+﻿body {
+    max-width: 960px;
+    margin: auto;
+}
+
+.main-image {
+    background-size: cover;
+    height: 640px;
+    width: 960px;
+    position: relative;
+    padding: 200px 0;
+    background-position: center center;
+}
+
+.gallery {
+    position: relative;
+    padding: 140px 0;
+}
+
+.cover {
+    background-size: cover;
+    height: 320px;
+    max-width: 320px;
+    
+}

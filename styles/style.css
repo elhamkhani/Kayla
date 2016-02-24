@@ -1,25 +1,82 @@
-﻿body {
-    max-width: 960px;
-    margin: auto;
+﻿.bg-transition {
+  -moz-transition: background-image 0.5s ease;
+  -o-transition: background-image 0.5s ease;
+  -webkit-transition: background-image 0.5s ease;
+  transition: background-image 0.5s ease;
 }
-
-.main-image {
-    background-size: cover;
-    height: 640px;
-    width: 960px;
-    position: relative;
-    padding: 200px 0;
-    background-position: center center;
+body {
+  padding-top: 70px;
+  margin: auto;
+  background-image: url(../img/bg.png);
 }
-
-.gallery {
-    position: relative;
-    padding: 140px 0;
+body .main-image {
+  background-size: cover;
+  max-width: 1200px;
+  height: 640px;
+  position: relative;
+  padding: 0;
+  background-position: top left;
 }
-
-.cover {
-    background-size: cover;
-    height: 320px;
-    max-width: 320px;
-    
+body .gallery {
+  position: relative;
+  padding: 40px 0;
+}
+body .gallery .cover {
+  background-size: cover;
+  height: 300px;
+  max-width: 300px;
+}
+body .gallery .cover.cover-1 {
+  background-image: url(../img/c1.png);
+}
+body .gallery .cover.cover-2 {
+  background-image: url(../img/c2.png);
+}
+body .gallery .cover.cover-3 {
+  background-image: url(../img/c3.png);
+}
+body .gallery .cover.cover-4 {
+  background-image: url(../img/c4.png);
+}
+body .gallery .cover.cover-5 {
+  background-image: url(../img/c5.png);
+}
+body .gallery .cover.cover-6 {
+  background-image: url(../img/c6.png);
+}
+body .gallery .cover.cover-7 {
+  background-image: url(../img/c7.png);
+}
+body .gallery .cover.cover-8 {
+  background-image: url(../img/c8.png);
+}
+body .gallery .cover.cover-9 {
+  background-image: url(../img/c9.png);
+}
+body .gallery .cover:hover {
+  -moz-transition: background-image 0.5s ease;
+  -o-transition: background-image 0.5s ease;
+  -webkit-transition: background-image 0.5s ease;
+  transition: background-image 0.5s ease;
+}
+body .game {
+  background-color: burlywood;
+  font-size: 5em;
+}
+body .game .questionnaire {
+  background-image: url(../img/k1.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+body .game .question {
+  display: inline-block;
+  vertical-align: top;
+}
+body .game .reply.reply-lie {
+  color: darkred;
+}
+body .game .reply.reply-true {
+  color: darkgreen;
 }

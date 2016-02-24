@@ -1,0 +1,102 @@
+﻿
+.bg-transition {
+    -moz-transition: background-image 0.5s ease;
+    -o-transition: background-image 0.5s ease;
+    -webkit-transition: background-image 0.5s ease;
+    transition: background-image 0.5s ease;
+}
+
+body {
+    padding-top: 70px;
+    margin: auto;
+
+    background-image:url(../img/bg.png) ;
+    
+
+    .main-image {
+        background-size: cover;
+        max-width: 1200px;
+        height:640px;
+        position: relative;
+        padding: 0;
+        background-position:top left;
+    }
+
+    .gallery {
+        position: relative;
+        padding: 40px 0;
+
+
+        .cover {
+            background-size: cover;
+            height: 300px;
+            max-width: 300px;
+
+
+            &.cover-1 {
+                background-image: url(../img/c1.png);
+            }
+
+            &.cover-2 {
+                background-image: url(../img/c2.png);
+            }
+
+            &.cover-3 {
+                background-image: url(../img/c3.png);
+            }
+
+            &.cover-4 {
+                background-image: url(../img/c4.png);
+            }
+
+            &.cover-5 {
+                background-image: url(../img/c5.png);
+            }
+
+            &.cover-6 {
+                background-image: url(../img/c6.png);
+            }
+
+            &.cover-7 {
+                background-image: url(../img/c7.png);
+            }
+
+            &.cover-8 {
+                background-image: url(../img/c8.png);
+            }
+
+            &.cover-9 {
+                background-image: url(../img/c9.png);
+            }
+
+            &:hover {
+                .bg-transition;
+            }
+        }
+    }
+
+    .game{
+        background-color:burlywood;
+        font-size:5em;
+            
+        .questionnaire{
+            background-image:url(../img/k1.jpg);
+            background-size:cover;
+            height:200px;
+            width:200px;
+            display:inline-block;
+        }
+        .question{
+            display:inline-block;
+            vertical-align:top;
+        }
+        .reply{
+            &.reply-lie{
+                color:darkred;
+            }
+            &.reply-true{
+                color:darkgreen;
+            }
+        }
+    }
+}

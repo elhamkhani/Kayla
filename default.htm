@@ -14,17 +14,24 @@
     <nav class="navbar navbar-fixed-top   navbar-inverse">
         <div class="container">
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a class="navbar-brand" href="#">Kayla</a>
             </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#gallery"> <span class="glyphicon glyphicon-camera"></span> Gallery</a></li>
-                <li><a href="#game"> <span class="glyphicon glyphicon-knight"></span> Game</a></li>
-                <li><a href="#map"> <span class="glyphicon glyphicon-map-marker"></span> Map</a></li>
-                <li><a href="#quotes"> <span class="glyphicon glyphicon-camera"></span> Quotes</a></li>
-                <li><a href="#video"> <span class="glyphicon glyphicon-play-circle"></span> Video</a></li>
-            </ul>
-        </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#gallery"> <span class="glyphicon glyphicon-camera"></span> Gallery</a></li>
+                    <li><a href="#game"> <span class="glyphicon glyphicon-knight"></span> Game</a></li>
+                    <li><a href="#map"> <span class="glyphicon glyphicon-map-marker"></span> Map</a></li>
+                    <li><a href="#quotes"> <span class="glyphicon glyphicon-camera"></span> Quotes</a></li>
+                    <li><a href="#video"> <span class="glyphicon glyphicon-play-circle"></span> Video</a></li>
+                </ul>
+            </div>
+            </div>
     </nav>
 
     <div class="container">
@@ -36,43 +43,43 @@
         <div class="gallery">
             <div class="row">
                 <a href="#home">
-                    <div class="cover cover-1 col-md-3">
+                    <div class="cover cover-1 col-md-3 col-sm-4">
                     </div>
                 </a>
                 <a href="#home">
-                    <div class="cover cover-2 col-md-3">
+                    <div class="cover cover-2 col-md-3 col-sm-4">
                     </div>
                 </a>
                 <a href="#home">
-                    <div class="cover cover-3 col-md-3">
+                    <div class="cover cover-3 col-md-3 col-sm-4">
                     </div>
                 </a>
                 <a href="#home">
-                    <div class="cover cover-4 col-md-3">
+                    <div class="cover cover-4 col-md-3 col-sm-4">
                     </div>
                 </a>
             </div>
 
             <div class="row">
-               
+
                 <a href="#home">
-                    <div class="cover cover-5 col-md-3">
+                    <div class="cover cover-5 col-md-3 col-sm-4">
                     </div>
                 </a>
                 <a href="#home">
-                    <div class="cover cover-6 col-md-3">
+                    <div class="cover cover-6 col-md-3 col-sm-4">
                     </div>
                 </a>
 
                 <a href="#home">
-                    <div class="cover cover-7 col-md-3">
+                    <div class="cover cover-7 col-md-3 col-sm-4">
                     </div>
                 </a>
                 <a href="#home">
-                    <div class="cover cover-8 col-md-3">
+                    <div class="cover cover-8 col-md-3 col-sm-4">
                     </div>
                 </a>
-            
+
             </div>
         </div>
 
@@ -91,7 +98,7 @@
                     </a>
                 </div>
                 <div class="col-md-5">
-                    <a class="reply lie"  href="javascript:trueOrLie(false)">Lie</a>
+                    <a class="reply lie" href="javascript:trueOrLie(false)">Lie</a>
                 </div>
             </div>
             <div class="row">
@@ -101,6 +108,15 @@
         <a id="map"></a>
 
         <a id="quotes"></a>
+
+        <div class="video container">
+            <a id="video"></a>
+            <div align="center" class="embed-responsive embed-responsive-16by9">
+                <video autoplay loop class="embed-responsive-item">
+                    <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
     </div>
 
     <script src="lib/jQuery/jquery-1.12.1.min.js"></script>

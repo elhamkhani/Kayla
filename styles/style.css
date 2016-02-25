@@ -25,6 +25,7 @@ body .gallery .cover {
   background-size: cover;
   height: 300px;
   max-width: 300px;
+  background-position: center center;
 }
 body .gallery .cover.cover-1 {
   background-image: url(../img/c1.png);
@@ -79,4 +80,7 @@ body .game .lie {
 }
 body .game .true {
   color: darkgreen;
+}
+body .video {
+  padding: 40px 0;
 }

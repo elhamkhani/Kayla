@@ -61,9 +61,6 @@ body .gallery .cover.cover-7 {
 body .gallery .cover.cover-8 {
   background-image: url(../img/c8.png);
 }
-body .gallery .cover.cover-9 {
-  background-image: url(../img/c9.png);
-}
 body .gallery .cover:hover {
   -moz-transition: background-image 0.5s ease;
   -o-transition: background-image 0.5s ease;
@@ -72,7 +69,7 @@ body .gallery .cover:hover {
 }
 body .game {
   background-color: burlywood;
-  font-size: 5em;
+  font-size: 2em;
 }
 body .game .questionnaire {
   background-image: url(../img/k1.jpg);
@@ -90,6 +87,9 @@ body .game .lie {
 }
 body .game .true {
   color: darkgreen;
+}
+body .game .replay {
+  display: none;
 }
 body .video {
   padding: 40px 0;

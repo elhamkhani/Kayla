@@ -1,12 +1,11 @@
 ﻿$(document).ready(function () {
 
-    
+
     $(".gallery .cover").hover(function () {
         if ($(this).hasClass("initialised")) {
-            $(this).attr("style", "background-image:url(img/c" + Math.floor((Math.random() * 9) + 1) + ".png)");
+            $(this).attr("style", "background-image:url(img/c" + Math.floor((Math.random() * 8) + 1) + ".png)");
             $(this).removeClass("initialised");
-        }else
-        {
+        } else {
             $(this).attr("style", "background-image:url(photos/" + Math.floor((Math.random() * 100) + 1) + ".jpg)");
             $(this).addClass("initialised");
         }

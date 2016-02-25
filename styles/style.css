@@ -74,9 +74,9 @@ body .game .question {
   display: inline-block;
   vertical-align: top;
 }
-body .game .reply.reply-lie {
+body .game .lie {
   color: darkred;
 }
-body .game .reply.reply-true {
+body .game .true {
   color: darkgreen;
 }

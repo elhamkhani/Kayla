@@ -1,5 +1,24 @@
-﻿var trues = ['Once Kayla killed me', '2', '3'];
-var lies = ['4', '5', '6'];
+﻿var trues = ['Once Kayla killed me', 'true', 'true'];
+var lies = ['lie', 'lie', 'lie'];
 var all = trues.concat(lies);
+var q = all[Math.floor(Math.random() * all.length)];
+document.getElementById("question").innerHTML = q;
 
-document.getElementById("question").innerHTML = all[Math.floor(Math.random() * all.length)];
+function trueOrLie(reply) {
+    var isTrue = (trues.indexOf(q) > -1);
+    var result;
+    if ( isTrue === reply)
+        result = "You are right!";
+    else
+        result = "You are wrong!";
+
+    document.getElementById("result").innerHTML = result;
+    $(".reply").hide();
+    if (isTrue) {
+        $(".question").addClass("true");
+    }else
+    {
+        $(".question").addClass("lie");
+    }
+
+}

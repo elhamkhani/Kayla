@@ -9,17 +9,16 @@
 body {
     padding-top: 70px;
     margin: auto;
+    background-image: url(../img/bg.png);
 
-    background-image:url(../img/bg.png) ;
-    
 
     .main-image {
         background-size: cover;
         max-width: 1200px;
-        height:640px;
+        height: 640px;
         position: relative;
         padding: 0;
-        background-position:top left;
+        background-position: top left;
     }
 
     .gallery {
@@ -75,28 +74,29 @@ body {
         }
     }
 
-    .game{
-        background-color:burlywood;
-        font-size:5em;
-            
-        .questionnaire{
-            background-image:url(../img/k1.jpg);
-            background-size:cover;
-            height:200px;
-            width:200px;
-            display:inline-block;
+    .game {
+        background-color: burlywood;
+        font-size: 5em;
+
+        .questionnaire {
+            background-image: url(../img/k1.jpg);
+            background-size: cover;
+            height: 200px;
+            width: 200px;
+            display: inline-block;
         }
-        .question{
-            display:inline-block;
-            vertical-align:top;
+
+        .question {
+            display: inline-block;
+            vertical-align: top;
         }
-        .reply{
-            &.reply-lie{
-                color:darkred;
-            }
-            &.reply-true{
-                color:darkgreen;
-            }
+
+        .lie {
+            color: darkred;
+        }
+
+        .true {
+            color: darkgreen;
         }
     }
 }

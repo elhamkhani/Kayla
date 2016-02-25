@@ -4,6 +4,12 @@
   -webkit-transition: background-image 0.5s ease;
   transition: background-image 0.5s ease;
 }
+.bg-transition-2 {
+  -moz-transition: background-image 1s ease-out;
+  -o-transition: background-image 1s ease-out;
+  -webkit-transition: background-image 1s ease-out;
+  transition: background-image 1s ease-out;
+}
 body {
   padding-top: 70px;
   margin: auto;
@@ -12,10 +18,14 @@ body {
 body .main-image {
   background-size: cover;
   max-width: 1200px;
-  height: 640px;
+  min-height: 640px;
   position: relative;
   padding: 0;
   background-position: top left;
+  -moz-transition: background-image 1s ease-out;
+  -o-transition: background-image 1s ease-out;
+  -webkit-transition: background-image 1s ease-out;
+  transition: background-image 1s ease-out;
 }
 body .gallery {
   position: relative;
@@ -83,4 +93,7 @@ body .game .true {
 }
 body .video {
   padding: 40px 0;
+}
+body .jaffle {
+  padding-bottom: 40px;
 }

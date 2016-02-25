@@ -6,19 +6,28 @@
     transition: background-image 0.5s ease;
 }
 
+
+.bg-transition-2 {
+    -moz-transition: background-image 1s ease-out;
+    -o-transition: background-image 1s ease-out;
+    -webkit-transition: background-image 1s ease-out;
+    transition: background-image 1s ease-out;
+}
+
 body {
     padding-top: 70px;
+    
     margin: auto;
-    background-image: url(../img/bg.png);
-
+    background-image:url(../img/bg.png);
 
     .main-image {
         background-size: cover;
         max-width: 1200px;
-        height: 640px;
+        min-height: 640px;
         position: relative;
         padding: 0;
         background-position: top left;
+        .bg-transition-2;
     }
 
     .gallery {
@@ -102,5 +111,9 @@ body {
 
     .video{
         padding:40px 0;
+    }
+
+    .jaffle{
+        padding-bottom:40px;
     }
 }

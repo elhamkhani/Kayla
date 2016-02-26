@@ -15,6 +15,9 @@ body {
   margin: auto;
   background-image: url(../img/bg.png);
 }
+body nav a {
+  font-size: 1.5vw;
+}
 body .main-image {
   background-size: cover;
   max-width: 1200px;
@@ -22,6 +25,7 @@ body .main-image {
   position: relative;
   padding: 0;
   background-position: top left;
+  background-position: center center;
   -moz-transition: background-image 1s ease-out;
   -o-transition: background-image 1s ease-out;
   -webkit-transition: background-image 1s ease-out;
@@ -36,6 +40,9 @@ body .gallery .flipper {
   height: 640px;
   width: 50px;
   position: absolute;
+}
+body .gallery .grid {
+  padding-top: 40px;
 }
 body .gallery .cover {
   background-size: cover;

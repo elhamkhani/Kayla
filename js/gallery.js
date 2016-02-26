@@ -6,7 +6,7 @@
             $(this).attr("style", "background-image:url(img/c" + Math.floor((Math.random() * 8) + 1) + ".png)");
             $(this).removeClass("initialised");
         } else {
-            $(this).attr("style", "background-image:url(photos/" + Math.floor((Math.random() * 97) + 1) + ".jpg)");
+            $(this).attr("style", "background-image:url(photos/" + Math.floor((Math.random() * 96) + 1) + ".jpg)");
             $(this).addClass("initialised");
         }
     });

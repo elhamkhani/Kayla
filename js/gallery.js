@@ -6,7 +6,7 @@
             $(this).attr("style", "background-image:url(img/c" + Math.floor((Math.random() * 8) + 1) + ".png)");
             $(this).removeClass("initialised");
         } else {
-            $(this).attr("style", "background-image:url(photos/" + Math.floor((Math.random() * 100) + 1) + ".jpg)");
+            $(this).attr("style", "background-image:url(photos/" + Math.floor((Math.random() * 97) + 1) + ".jpg)");
             $(this).addClass("initialised");
         }
     });
@@ -17,21 +17,7 @@
     });
 
 
-
 });
-
-
-$("").fallings({
-
-    velocity: 0,
-    initialPosition: 0,
-    bgParallax: false,
-    bgPercent: "0%",
-    onClass: "fallings-visible",
-    offClass: "fallings-invisible"
-
-});
-
 
 $(function () {
     $('a[href*="#"]:not([href="#"]), .cover').click(function () {

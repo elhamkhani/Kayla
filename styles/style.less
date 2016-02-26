@@ -33,6 +33,12 @@ body {
         position: relative;
         padding: 40px 0;
 
+        .flipper {
+            background-color: red;
+            height: 640px;
+            width: 50px;
+            position: absolute;
+        }
 
         .cover {
             background-size: cover;
@@ -79,15 +85,19 @@ body {
     }
 
     .game {
-        background-color: burlywood;
-        font-size: 2em;
-
+        background-color: #C5B298;
+        font-size: 1.5em;
+        padding:10px;
         .questionnaire {
             background-image: url(../img/k1.jpg);
             background-size: cover;
             height: 200px;
             width: 200px;
-            display: inline-block;
+            -webkit-border-radius: 150px;
+            -moz-border-radius: 150px;
+            border-radius: 150px;
+            border:2px solid white;
+            margin:0 40%;
         }
 
         .question {
@@ -114,5 +124,18 @@ body {
 
     .jaffle {
         padding-bottom: 40px;
+        .flexslider{
+            li{
+                background-image:url(../img/paper.jpg);
+            }
+        }
     }
+
+    .certificates{
+        padding:40px 0;
+        img{
+            max-width:300px;
+        }
+    }
+    
 }

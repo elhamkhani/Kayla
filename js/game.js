@@ -17,7 +17,7 @@ var lies = ['Once she didn\'t talk to Lacy for a week, because of the Jaffle vs.
 'Kayla once took a cardboard cutout of a car through a drivethrough takeaway so they would serve her.',
 'Once put out a fire at the start of a woods on the way home from work.',
 'Her favourite restuarant in Morden is Verona Pizzeria.',
-'Kayla once killed a man.',
+'Kayla once killed a joey.',
 'She won a competition to go out for dinner with Jason Donovan when she was 15.',
 'Kayla once got so drunk Elham had to take her back to her house to look after her. When she gave her clothes to change into for the night, she wore Elham\'s shirt as a skirt and went to sleep.'];
 
@@ -64,5 +64,5 @@ function replay() {
     $(".question").removeClass("true").removeClass("lie");
     document.getElementById("result").innerHTML = "";
     $(".reply").show();
-
+    $(".replay").hide();
 }
